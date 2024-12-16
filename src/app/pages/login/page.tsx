@@ -1,3 +1,4 @@
+import { Link } from 'lucide-react';
 import React from 'react';
 
 const SignIn: React.FC = () => {
@@ -5,7 +6,7 @@ const SignIn: React.FC = () => {
         <div className="flex items-center justify-center h-screen bg-white">
             <div className="w-full max-w-sm p-6">
                 <div className="flex justify-center mb-6">
-                    <img
+                <img
                         alt="Nike Logo"
                         loading="lazy"
                         width="100"
@@ -15,6 +16,7 @@ const SignIn: React.FC = () => {
                         src="/img2.png"
                         style={{ color: 'transparent' }}
                     />
+    
                 </div>
                 <h1 className="text-center text-lg font-bold mb-6">
                     YOUR ACCOUNT <br /> FOR EVERYTHING <br /> NIKE
@@ -51,20 +53,20 @@ const SignIn: React.FC = () => {
                     </button>
                 </form>
                 <p className="text-xs text-center text-gray-600 mt-4">
-                   {" By logging in, you agree to Nike's "} {''}
-                    <a href="#" className="underline">
+                   {" By logging in, you agree to Nike's "} 
+                    <Link href="#" className="underline">
                         Privacy Policy
-                    </a>
+                    </Link>
                     and
-                    <a href="#" className="underline">
+                    <Link href="#" className="underline">
                         Terms of Use
-                    </a>.
+                    </Link>.
                 </p>
                 <p className="text-center text-sm mt-4">
                     Not a Member?{' '}
-                    <a href="signup" className="text-black underline font-semibold">
+                    <Link href="signup" className="text-black underline font-semibold">
                         Join Us.
-                    </a>
+                    </Link>
                 </p>
             </div>
         </div>

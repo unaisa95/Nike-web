@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
             {/* Logo */}
             <div className="font-bold pr-0 xl:pr-40">
             <div className="font-bold pr-0 xl:pr-40">
-                <a href="/"><img src="/img2.png" alt="" /></a>
+                <img src="/img2.png" alt="" /> 
             </div>
                 
             </div>
